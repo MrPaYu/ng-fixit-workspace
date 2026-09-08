@@ -15,27 +15,6 @@ Click an element, describe the change, and copy a structured Markdown Report tha
 
 </div>
 
-## Why ng-fixit?
-
-Describing a visual change in chat is imprecise. “Move the button on the right” still leaves an AI coding agent guessing which element and which code you mean.
-
-ng-fixit adds a development-only annotation layer to your Angular application. Select the exact **Target**, add a correction note, then paste the generated **Report** into Codex, Claude Code, Cursor, or another coding agent with access to your codebase.
-
-## Features
-
-- **Click to annotate** — select a rendered Angular UI element and attach a required note.
-- **Precise Locators** — capture CSS paths, element details, and position data for each Target.
-- **Agent-ready Reports** — copy structured Markdown directly into any AI coding agent.
-- **Annotation management** — edit, delete, or clear Annotations before sharing a Report.
-- **Safe by default** — the overlay follows Angular's `isDevMode()` and stays disabled in production builds.
-- **Lightweight integration** — one standalone component, one stylesheet, and no UI-kit dependency.
-
-## Requirements
-
-- Angular 22
-- `@angular/core` and `@angular/common` `^22.1.0`
-- A desktop browser
-
 ## Install
 
 Install ng-fixit as a development dependency:
@@ -74,6 +53,21 @@ Mount it once in the shell template:
 ```
 
 That is all the setup required. The Annotation Mode control appears in the bottom-right corner during development.
+
+## Features
+
+- **Click to annotate** — select a rendered Angular UI element and attach a required note.
+- **Precise Locators** — capture CSS paths, element details, and position data for each Target.
+- **Agent-ready Reports** — copy structured Markdown directly into any AI coding agent.
+- **Annotation management** — edit, delete, or clear Annotations before sharing a Report.
+- **Safe by default** — the overlay follows Angular's `isDevMode()` and stays disabled in production builds.
+- **Lightweight integration** — one standalone component, one stylesheet, and no UI-kit dependency.
+
+## Requirements
+
+- Angular 22
+- `@angular/core` and `@angular/common` `^22.1.0`
+- A desktop browser
 
 ## How it works
 
