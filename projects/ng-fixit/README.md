@@ -1,19 +1,14 @@
-<div align="center">
-
 # ng-fixit
 
-**Visual feedback for Angular and AI coding agents.**
+### Point to the UI. Tell your agent what to change.
 
-Click an element, describe the change, and copy a structured Markdown Report that helps your coding agent find the right UI code.
+Select a Target in your Angular app, add a correction note, and copy a Markdown Report with the context your coding agent needs.
 
-[![npm version](https://img.shields.io/npm/v/ng-fixit?logo=npm&color=CB3837)](https://www.npmjs.com/package/ng-fixit)
-[![npm downloads](https://img.shields.io/npm/dm/ng-fixit?logo=npm)](https://www.npmjs.com/package/ng-fixit)
-[![CI](https://github.com/driie/ng-fixit-workspace/actions/workflows/ci.yml/badge.svg)](https://github.com/driie/ng-fixit-workspace/actions/workflows/ci.yml)
-[![MIT license](https://img.shields.io/npm/l/ng-fixit)](https://github.com/driie/ng-fixit-workspace/blob/main/LICENSE)
+[npm](https://www.npmjs.com/package/ng-fixit) · [CI](https://github.com/driie/ng-fixit-workspace/actions/workflows/ci.yml) · [MIT license](https://github.com/driie/ng-fixit-workspace/blob/main/LICENSE)
 
-[Install](#install) · [Quick start](#quick-start) · [How it works](#how-it-works) · [API](#public-api)
+[**Quick start →**](#quick-start) · [Install](#install) · [How it works](#how-it-works) · [API](#public-api)
 
-</div>
+![Workflow illustration: select a Target, add a correction note, and copy a Markdown Report with a Locator for your coding agent.](../../docs/assets/readme-hero-light.svg)
 
 ## Install
 

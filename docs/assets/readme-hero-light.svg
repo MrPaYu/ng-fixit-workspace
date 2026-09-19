@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">From your Angular UI to an actionable Report</title>
+  <desc id="description">Workflow illustration: select a button as a Target, add a correction note, and copy a Markdown Report with a Locator for your coding agent.</desc>
+  <defs>
+    <radialGradient id="glow" cx="0.1" cy="0" r="1">
+      <stop stop-color="#F4F1EF"/>
+      <stop offset="1" stop-color="#F4F1EF"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="40" y1="0" x2="1160" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6F0C1B"/>
+      <stop offset="1" stop-color="#87373D"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="478" rx="24" fill="url(#glow)" stroke="#C6C1BE"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="40" y="36" width="30" height="30" rx="9" fill="url(#accent)"/>
+    <path d="M49 44V53H58M61 58V49H52" stroke="#F4F1EF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="82" y="58" fill="#090606" font-size="23" font-weight="700">ng-fixit</text>
+    <text x="1160" y="56" text-anchor="end" fill="#524E4D" font-size="14" letter-spacing="2">BUILT FOR ANGULAR</text>
+    <text x="40" y="125" fill="#090606" font-size="38" font-weight="700" letter-spacing="-1">Point to the change. Give your agent the context.</text>
+    <text x="40" y="160" fill="#524E4D" font-size="18">Your UI, a correction note, and a Markdown Report with the right Locator.</text>
+
+    <rect x="40" y="202" width="342" height="218" rx="14" fill="#FDFDFD" stroke="#C6C1BE"/>
+    <path d="M40 247H382" stroke="#C6C1BE"/>
+    <circle cx="60" cy="225" r="4" fill="#6F0C1B"/>
+    <text x="75" y="230" fill="#332F2F" font-size="14">01 / Select a Target</text>
+    <rect x="60" y="266" width="126" height="9" rx="4.5" fill="#968F8B"/>
+    <rect x="60" y="287" width="205" height="7" rx="3.5" fill="#C6C1BE"/>
+    <rect x="60" y="304" width="175" height="7" rx="3.5" fill="#C6C1BE"/>
+    <rect x="56" y="334" width="156" height="57" rx="10" fill="#6F0C1B" fill-opacity=".06" stroke="#6F0C1B" stroke-width="2" stroke-dasharray="5 4"/>
+    <rect x="63" y="341" width="142" height="43" rx="6" fill="#6F0C1B"/>
+    <text x="134" y="368" text-anchor="middle" fill="#F4F1EF" font-size="15" font-weight="700">Save changes</text>
+    <path d="M193 373L196 403L205 393L217 390Z" fill="#6F0C1B" stroke="#FDFDFD" stroke-width="2"/>
+
+    <path d="M390 312H415M408 305L415 312L408 319" stroke="#6F0C1B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="428" y="202" width="342" height="218" rx="14" fill="#FDFDFD" stroke="#C6C1BE"/>
+    <path d="M428 247H770" stroke="#C6C1BE"/>
+    <text x="448" y="230" fill="#332F2F" font-size="14">02 / Add an Annotation</text>
+    <text x="448" y="282" fill="#6F0C1B" font-size="13" font-family="monospace">button.save</text>
+    <rect x="448" y="299" width="302" height="68" rx="8" fill="#F4F1EF" stroke="#C6C1BE"/>
+    <text x="463" y="326" fill="#090606" font-size="16">Align this button with</text>
+    <text x="463" y="350" fill="#090606" font-size="16">the form fields.</text>
+    <text x="448" y="397" fill="#524E4D" font-size="13">A Target + your correction note</text>
+
+    <path d="M778 312H803M796 305L803 312L796 319" stroke="#6F0C1B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="816" y="202" width="344" height="218" rx="14" fill="#FDFDFD" stroke="#C6C1BE"/>
+    <path d="M816 247H1160" stroke="#C6C1BE"/>
+    <text x="836" y="230" fill="#332F2F" font-size="14">03 / Copy the Report</text>
+    <g font-family="monospace" font-size="15">
+      <text x="836" y="284" fill="#6F0C1B"># UI Report</text>
+      <text x="836" y="314" fill="#090606">Align this button with</text>
+      <text x="836" y="337" fill="#090606">the form fields.</text>
+      <text x="836" y="373" fill="#524E4D">Locator: button.save</text>
+    </g>
+    <text x="836" y="397" fill="#524E4D" font-size="13">Paste into your coding agent</text>
+    <text x="40" y="453" fill="#524E4D" font-size="13">Development-only · In-memory Annotations · No UI-kit dependency</text>
+    <text x="1160" y="453" text-anchor="end" fill="#524E4D" font-size="12">WORKFLOW ILLUSTRATION</text>
+  </g>
+</svg>
